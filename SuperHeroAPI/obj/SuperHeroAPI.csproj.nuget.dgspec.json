@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
+    "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroApi\\SuperHeroAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {
+    "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroApi\\SuperHeroAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroApi\\SuperHeroAPI.csproj",
         "projectName": "SuperHeroAPI",
-        "projectPath": "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectPath": "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroApi\\SuperHeroAPI.csproj",
         "packagesPath": "C:\\Users\\jorge.valverde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
+        "outputPath": "C:\\Users\\jorge.valverde\\Desktop\\VS\\SuperHeroAPI\\SuperHeroApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,9 +47,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
